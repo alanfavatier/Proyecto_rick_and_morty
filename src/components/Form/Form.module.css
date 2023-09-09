@@ -1,0 +1,61 @@
+
+/* Form.module.css */
+
+/* Establece una altura del 100% en el contenedor principal */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* 100% de la altura de la ventana */
+  display: flex;
+  justify-content: space-around; /* Centra horizontalmente el contenido */
+    /* Centra verticalmente el contenido */
+  flex-direction: row;
+  
+}
+
+
+.formContainer {
+  color: rgb(10, 10, 10);
+  font-weight: bold;
+  padding: 10px; /* Reducir el espacio interior del formulario */
+  border-radius: 15px; /* Reducir el radio de las esquinas */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Reducir la intensidad de la sombra */
+  text-align: center;
+  max-width: 300px; /* Establecer un ancho máximo para limitar el tamaño del formulario */
+ 
+}
+
+.formInput {
+  
+  padding: 10px;
+  border: none;
+  background-color: #97158fab;
+  color: #fff;
+  border-radius: 18px;
+}
+
+.formInput:focus {
+  outline: none;
+  background-color:#0000005e;
+}
+
+.formButton {
+  background-color: #53005c;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.formButton:hover {
+  background-color:  #3b0a8ac7;
+}
+
+.error{
+  color: rgba(255, 11, 7, 0.886);
+  font-size: smaller;
+  font-weight: 300;
+  
+}
+

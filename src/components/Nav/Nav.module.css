@@ -1,0 +1,29 @@
+
+ .navbar {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0d048425;
+    border-radius: 2%;
+    box-shadow: -8px 37px 280px 3px rgba(158,0,143,0.75);
+-webkit-box-shadow: -8px 37px 280px 3px rgba(158,0,143,0.75);
+-moz-box-shadow: -8px 37px 280px 3px rgba(4, 1, 4, 0.75);
+  } 
+  
+ 
+.navlink {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+   
+  }
+   
+  .navlink:hover {
+    color: #760670;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+  }
+     

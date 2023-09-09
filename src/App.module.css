@@ -1,0 +1,52 @@
+/* App.module.css */
+
+/* Clase para la página de inicio */
+.home {
+  background-image: url('./backgrRoutes/home.jpg');
+  background-size: cover;
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-position: center;
+  width: 100%;
+  
+  }
+  
+  /* Clase para la página de Favoritos */
+  .favorites {
+    background-image: url('./backgrRoutes/form.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center;
+    width: 100%;
+    
+  }
+  
+  /* Clase para la página de Detalle */
+  .detail {
+    background-image: url('./backgrRoutes/Detail.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center;
+    width: 100%;
+    
+  }
+  
+  /* Clase para la página Acerca de */
+  .about {
+    background-image: url('./backgrRoutes/Detail.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center;
+    width: 100%;
+    
+  }
+  
+  /* Clase predeterminada o para otras páginas no especificadas */
+  .default {
+    background-image: url('./backgrRoutes/login.jpg.png');
+    background-size: cover;
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center;
+    width: 100%;
+    
+  }
+  
